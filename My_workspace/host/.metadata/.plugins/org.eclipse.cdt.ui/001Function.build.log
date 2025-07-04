@@ -1,0 +1,7 @@
+18:31:30 **** Incremental Build of configuration Debug for project 001Function ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o 001Function.exe main.o 
+
+18:31:31 Build Finished. 0 errors, 0 warnings. (took 471ms)
+

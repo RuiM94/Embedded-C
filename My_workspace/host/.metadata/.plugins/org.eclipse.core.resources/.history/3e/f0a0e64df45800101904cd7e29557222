@@ -1,0 +1,30 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 4, 2025
+ *      Author: Rui
+ */
+#include <stdio.h>
+
+void function_add_number(int, int, int);
+
+int main ()
+{
+	function_add_number(1,2,3);
+	function_add_number(-20,30,-22);
+
+	int valueA = 42, valueB= -99;
+
+	function_add_number(valueA, valueB, -33);
+
+	return 0;
+}
+
+
+// This is function definition
+void function_add_number(int a , int b , int c )
+{
+	int sum ;
+	sum = a+b+c;
+	printf("Sum = %d\n",sum);
+}

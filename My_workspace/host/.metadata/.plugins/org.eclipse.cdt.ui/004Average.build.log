@@ -1,0 +1,7 @@
+23:30:41 **** Incremental Build of configuration Debug for project 004Average ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main_new.o "..\\main_new.c" 
+gcc -o 004Average.exe main_new.o 
+
+23:30:41 Build Finished. 0 errors, 0 warnings. (took 437ms)
+

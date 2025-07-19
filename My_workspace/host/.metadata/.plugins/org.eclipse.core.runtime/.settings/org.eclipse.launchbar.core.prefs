@@ -1,9 +1,11 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:001Function.exe,org.eclipse.launchbar.core.descriptorType.default\:002Math.exe,org.eclipse.launchbar.core.descriptorType.default\:type_casting.exe
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:001Function.exe,org.eclipse.launchbar.core.descriptorType.default\:002Math.exe,org.eclipse.launchbar.core.descriptorType.default\:004Average.exe,org.eclipse.launchbar.core.descriptorType.default\:005ASCII.exe,org.eclipse.launchbar.core.descriptorType.default\:006Pointer.exe,org.eclipse.launchbar.core.descriptorType.default\:type_casting.exe
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:000TestProject/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:000TestProject/activeLaunchTarget=null\:---
 org.eclipse.launchbar.core.descriptorType.default\:001Function.exe/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:001Function.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:004Average.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:005ASCII.exe/activeLaunchMode=run

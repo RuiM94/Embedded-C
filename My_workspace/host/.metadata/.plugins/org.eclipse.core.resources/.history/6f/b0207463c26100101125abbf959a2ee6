@@ -1,0 +1,23 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 15, 2025
+ *      Author: Rui
+ */
+
+#include <stdio.h>
+int main(void)
+{
+	float a, b, c;
+
+	printf("Input your 3 numbers:\n");
+	fflush(stdout);
+	scanf("%f %f %f", &a,&b,&c);
+
+	printf("Your average is: %f", (a+b+c)/3);
+	fflush(stdout);
+
+	getchar();
+	getchar();
+	return 0;
+}

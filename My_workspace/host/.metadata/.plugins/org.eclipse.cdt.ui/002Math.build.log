@@ -1,8 +1,1 @@
-18:45:20 **** Incremental Build of configuration Debug for project 002Math ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o math.o "..\\math.c" 
-gcc -o 002Math.exe main.o math.o 
-
-18:45:21 Build Finished. 0 errors, 0 warnings. (took 743ms)
-
+Info: Nothing to build for 002Math

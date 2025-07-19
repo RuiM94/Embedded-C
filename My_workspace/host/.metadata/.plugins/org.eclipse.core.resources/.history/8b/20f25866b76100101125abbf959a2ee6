@@ -1,0 +1,24 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 15, 2025
+ *      Author: Rui
+ */
+
+
+int main(void)
+{
+	int a = 0;
+	int b = 0;
+	int c = 0;
+
+	printf("Please write your 3 numbers to make an average:\n");
+	scanf("%d %d %d", &a, &b, &c);
+	int d = 0;
+	d = a+b+c;
+	d = d/3;
+	printf("Your average is: %d", d);
+
+
+	return 0;
+}

@@ -1,0 +1,33 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 19, 2025
+ *      Author: Rui
+ */
+
+/* Understanding pointers, how you can reference, deference, read one and write on one.
+ *
+ */
+
+#include <stdio.h>
+
+int main (void)
+{
+	char variable = 100;
+
+	printf("This is the value of variable: %d\n", variable);
+	fflush(stdout);
+	printf("This is the memory address of variable: %p\n", &variable);
+	fflush(stdout);
+	char* address = &variable;
+	char data = *address;
+	printf("This is the stored value of address: %p\n",address);
+	fflush(stdout);
+	printf("This is the 1st byte of address: %d\n",data);
+	fflush(stdout);
+	*address = 65;
+	printf("This is the new value of variable: %d\n", variable);
+	fflush(stdout);
+
+
+}

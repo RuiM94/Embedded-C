@@ -1,0 +1,10 @@
+17:36:04 **** Incremental Build of configuration Debug for project 004TurnOnLED ****
+make -j12 all 
+arm-none-eabi-size  004TurnOnLED.elf 
+   text	   data	    bss	    dec	    hex	filename
+    728	     12	   1564	   2304	    900	004TurnOnLED.elf
+Finished building: default.size.stdout
+ 
+
+17:36:04 Build Finished. 0 errors, 0 warnings. (took 145ms)
+

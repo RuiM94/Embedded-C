@@ -1,21 +1,21 @@
-19:33:13 **** Incremental Build of configuration Debug for project 003Add ****
+20:50:06 **** Incremental Build of configuration Debug for project 005BlinkingLED ****
 make -j12 all 
-arm-none-eabi-size  003Add.elf 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "005BlinkingLED.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Users\Rui\Documents\Embedded-C\My_workspace\target\005BlinkingLED\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005BlinkingLED.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005BlinkingLED.elf
+ 
+arm-none-eabi-size  005BlinkingLED.elf 
+arm-none-eabi-objdump -h -S 005BlinkingLED.elf  > "005BlinkingLED.list"
    text	   data	    bss	    dec	    hex	filename
-   4916	    100	   1908	   6924	   1b0c	003Add.elf
+    796	     12	   1564	   2372	    944	005BlinkingLED.elf
 Finished building: default.size.stdout
  
-19:33:47 **** Incremental Build of configuration Debug for project 003Add ****
-make -j12 all 
-arm-none-eabi-size  003Add.elf 
-   text	   data	    bss	    dec	    hex	filename
-   4916	    100	   1908	   6924	   1b0c	003Add.elf
-Finished building: default.size.stdout
+Finished building: 005BlinkingLED.list
  
-20:53:00 **** Incremental Build of configuration Debug for project 003Add ****
+20:50:11 **** Incremental Build of configuration Debug for project 005BlinkingLED ****
 make -j12 all 
-arm-none-eabi-size  003Add.elf 
+arm-none-eabi-size  005BlinkingLED.elf 
    text	   data	    bss	    dec	    hex	filename
-   4916	    100	   1908	   6924	   1b0c	003Add.elf
+    796	     12	   1564	   2372	    944	005BlinkingLED.elf
 Finished building: default.size.stdout
  

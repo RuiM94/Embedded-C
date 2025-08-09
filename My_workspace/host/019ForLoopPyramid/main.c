@@ -1,0 +1,44 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 9, 2025
+ *      Author: Rui
+ */
+#include <stdio.h>
+#include <stdint.h>
+
+void wait_for_return(void);
+int main(void){
+
+	int32_t height;
+	printf("Enter height of the pyramid:");
+	fflush(stdout);
+	scanf("%d",&height);
+	if(height < 0)
+	{
+		printf("You have typed a negative number, exiting program...\n");
+		wait_for_return();
+		return 0;
+	}
+	for(uint32_t i = 1;i<=height;i++){
+		printf("\n");
+		fflush(stdout);
+		for(uint32_t j = i;j>=1;j--){
+			printf("%4u\t",j);
+			fflush(stdout);
+		}
+	}
+	printf("\n");
+	wait_for_return();
+	return 0;
+}
+void wait_for_return(void)
+{
+	printf("Press enter key button to exit application");
+	fflush(stdout);
+	while(getchar()!= '\n')
+	{
+
+	}
+	getchar();
+}

@@ -1,0 +1,35 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 9, 2025
+ *      Author: Rui
+ */
+#include <stdio.h>
+#include <stdint.h>
+
+void wait_for_return(void);
+
+int main (void)
+{
+	uint32_t BitToExtract = 0x3500;
+	uint8_t BitOutput;
+
+	BitOutput = (BitToExtract >> 8) & (0x000F);
+
+	printf("This is the value from the 8th bit to the 11th bit: %d 0x%x\n",BitOutput, BitOutput);
+	fflush(stdout);
+	wait_for_return();
+
+	return 0;
+}
+
+void wait_for_return(void)
+{
+	printf("Press enter key button to exit application");
+	fflush(stdout);
+	while(getchar()!= '\n')
+	{
+
+	}
+	getchar();
+}

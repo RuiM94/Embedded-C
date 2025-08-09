@@ -1,7 +1,1 @@
-18:04:58 **** Incremental Build of configuration Debug for project 006Pointer ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o 006Pointer.exe main.o 
-
-18:04:58 Build Finished. 0 errors, 0 warnings. (took 364ms)
-
+Info: Nothing to build for 006Pointer
